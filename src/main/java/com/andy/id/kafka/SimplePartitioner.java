@@ -1,4 +1,4 @@
-package com.capgemini.id.kafka;
+package com.andy.id.kafka;
 
 import kafka.producer.Partitioner;
 import kafka.utils.VerifiableProperties;
