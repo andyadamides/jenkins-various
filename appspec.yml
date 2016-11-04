@@ -2,4 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/
+    destination: /home/ec2-user/kafka_code/
+hooks:
+  BeforeInstall:
+    - location: scripts/start_server
+      timeout: 300
+      runas: root
