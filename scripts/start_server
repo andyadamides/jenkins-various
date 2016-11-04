@@ -1,0 +1,1 @@
+java -cp /home/ec2-user/kafka-test/target/kafka-cap-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.andy.id.kafka.KafkaProducer 5
