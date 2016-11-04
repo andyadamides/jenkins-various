@@ -3,3 +3,8 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/kafka_code/
+hooks:
+  AfterInstall:
+    - location: scripts/start_server
+      timeout: 300
+      runas: root
